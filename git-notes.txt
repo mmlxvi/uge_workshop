@@ -1001,3 +1001,503 @@
   603  subl git-notes.txt
   604  history > git-notes.txt
   605  history >> git-notes.txt
+  113  ls
+  114  mkdir testing2/folderOne
+  115  ls testing2
+  116  touch folderOne/file1
+  117  touch testing2/folderOne/fileOne
+  118  ls testing2
+  119  ls folderOne
+  120  ls testing2/folderOne
+  121  ls testing2/folderOne/fileOne
+  122  mkdir testing2/folderOne/fileWithinFile1
+  123  touch testing2/folderOne/fileWithinFile1/defFile
+  124  touch testing2/folderOne/fileWithinFile1/ghiFile
+  125  touch testing2/folderOne/fileWithinFile1/jklFile
+  126  ls testing2/folderOne/fileWithinFile1
+  127  cd
+  128  cp testing2/folderOne/fileWithinFile1/ghiFile ..
+  129  cp testing2/folderOne/fileWithinFile1/ghiFile testing2
+  130  ls testing2
+  131  cp testing2/folderOne/fileWithinFile1/ghiFile pwd
+  132  ls 
+  133  ls pwd
+  134  pwd
+  135  cp testing2/folderOne/fileWithinFile1/jklFile Users/matthew
+  136  cp testing2/folderOne/fileWithinFile1/jklFile ~
+  137  ls
+  138  mv testing2/folderOne/fileWithinFile1/ghiFile testing2
+  139  ls
+  140  mv testing2/folderOne/fileWithinFile1/jklFile testing2
+  141  ls testing
+  142  ls testing2
+  143  ls
+  144  rm jklFile
+  145  ls 
+  146  rm pwd
+  147  ls
+  148  ls testing2
+  149  mv testing2/ghiFile testing2/kitkat
+  150  ls testing2
+  151  mv testing2/jklFile mrGoodbar
+  152  ls testing2
+  153  ls
+  154  mv mrGoodbar testing2/mrGoodbar
+  155  ls testing2
+  156  ls
+  157  mv testing2/mrGoodbar testing2/moved1/noLongerMrGoodbar
+  158  ls moved1
+  159  ls testing2
+  160  ls
+  161  mv testing2/kitkat testing2/folderOne/newKitKat
+  162  ls folderOne
+  163  ls testing2
+  164  ls testing2/folderOne
+  165  ls
+  166  rm testing2
+  167  rm -r -i testing2
+  168  ls testing2
+  169  ls testing2/folderOne
+  170  ls testing2/moved1
+  171  ls testing2/moved1/noLongerMrGoodbar
+  172  rm testing2/moved1
+  173  rm -r testing2/moved1
+  174  ls testing2
+  175  b*
+  176  ls b*
+  177  ls f*
+  178  ls
+  179  ls d*
+  180  pwd
+  181  ls b*
+  182  ls P*
+  183  ls M*
+  184  ls User/matthew*.txt
+  185  ls Users/matthew
+  186  ls Documents
+  187  ls Movies
+  188  ls Public
+  189  ls testing2
+  190  ls Downloads
+  191  ls Downloads/*.pdf
+  192  ls Downloads*.pdf
+  193  ls [^a-k]
+  194  ls
+  195  ls [^a-k]*
+  196  /*
+  197  ~/*
+  198  Documents/*
+  199  testing2/*
+  200  folderOne/*
+  201  ls testing2
+  202  testing2/folderOne/*
+  203  testing2/folderOne/newKitKat/*
+  204  ls etc
+  205  ls /etc
+  206  ls /etc/*.netboot
+  207  ls /etc/*.c*
+  208  ls /etc/*.??g
+  209  ls /etc/*.keytab
+  210  ls /etc/b*
+  211  /etc/c*
+  212  ls /etc/c*
+  213  ls /etc/*.???
+  214  ls /etc/*.?????
+  215  ls /etc/*[[:upper:]]
+  216  ls /etc/????*
+  217  ls /etc/[[:upper:]]*
+  218  ls [[:upper:]]*
+  219  ls [:upper:]*
+  220  ls /etc/[[:upper:]]*
+  221  ls /etc/*[[:upper:]]*
+  222  ls /etc/*[0-9]*
+  223  ls /etc/[a-k]*
+  224  ls etc/a*
+  225  ls /etc/a*
+  226  ls /etc/
+  227  ls /etc/[[:upper:]]
+  228  ls /etc/*[[:upper:]]
+  229  ls /etc/*[[:upper:]]*
+  230  ls /etc/[[:upper:]]*
+  231  ls /etc/*[[:upper:]]*
+  232  ls /etc/*[:upper:]
+  233  ls /etc/[:upper:]*
+  234  ls -l Documents
+  235  ls -ld
+  236  ls -ld Documents
+  237  ls -ld Movies
+  238  ls linuxtutorialwork
+  239  ls testing2
+  240  touch testing2/mondayFile
+  241  ls testing2
+  242  ls -ld testing2/mondayFile
+  243  chmod testing2/mondayFile 100
+  244  chmod mondayFile 101
+  245  ls -ld testing2
+  246  chmod testing 202
+  247  chmod testing2 404
+  248  ls -l testing2
+  249  chmod folderOne 333
+  250  ls -l testing2/folderOne
+  251  chmod 750 newKitKat
+  252  ls -ld testing2/folderOne/newKitKat
+  253  chmod 700 testing2/folderOne/newKitKat
+  254  ls -ld testing2/folderOne/newKitKat
+  255  chmod 100 testing2/folderOne/newKitKat
+  256  ls -ld testing2/folderOne/newKitKat
+  257  mv testing2 testing2015
+  258  ls testing2015
+  259  touch testing2015/folderZwei
+  260  ls testing2
+  261  ls testing2016
+  262  ls testing2015
+  263  mkdir testing2015/directoryB
+  264  touch testing2015/direcotryB/fileMeAway
+  265  ls testing2015/directoryB
+  266  touch testing2015/directoryB/fileMeAway
+  267  ls testing2015/directoryB
+  268  mkdir testing2015/directoryB/anotherDirectory
+  269  ls testing2015
+  270  ls -ld testing2015/directoryB
+  271  chmod 700 testing2015/directoryB
+  272  ls -ld testing2015/directoryB
+  273  ls testing2015/directoryB
+  274  ls -ld testing2015/directoryB/fileMeAway
+  275  chmod 755 testing2015/directoryB/fileMeAway
+  276  ls -ld testing2015/directoryB/fileMeAway
+  277  chmod 777 testing2015/directoryB/fileMeAway
+  278  ls -ld testing2015/directoryB/fileMeAway
+  279  chmod 000 testing2015/directoryB/fileMeAway
+  280  ls -ld testing2015/directoryB/fileMeAway
+  281  ls testing2015/directoryB
+  282  ls -ld /etc
+  283  ls -ld /bin
+  284  ls -ld Movies
+  285  ls -ld Documents
+  286  ls -ld 'Google Drive'
+  287  ls -ld MMImages
+  288  ls -ld MMimages
+  289  ls -ld Documents/MMimages
+  290  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  291  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  292  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  293  ls
+  294  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  295  cd
+  296  ls Applications
+  297  ls -l
+  298  ls -l Applications
+  299  ls Applications
+  300  ls Downloads
+  301  ls Desktop
+  302  ls 'Google Drive'
+  303  ls
+  304  ls Movies
+  305  ls Public
+  306  ls testing2015
+  307  ls Applications
+  308  ls
+  309  ls
+  310  ls
+  311  cd Applications
+  312  ls
+  313  ls -a
+  314  ln -s
+  315  ls
+  316  ls -a
+  317  ls -s
+  318  cd
+  319  $
+  320  cd /
+  321  ls -G
+  322  ls -R
+  323  ls -S
+  324  ls -R
+  325  ls -R
+  326  cd /
+  327  ls -R
+  328  cd /
+  329  ls -S
+  330  ls -m
+  331  ls -mR
+  332  pwd
+  333  pwd
+  334  cd /
+  335  pwd
+  336  cd
+  337  cd /
+  338  ls
+  339  ls Applications
+  340  ls
+  341  ls -t
+  342  ls -l
+  343  ls -lt
+  344  ls r
+  345  ls -lr
+  346  ls -t
+  347  ls -tr
+  348  ls -lt
+  349  ls -ltr
+  350  man
+  351  man flags
+  352  man flag
+  353  man ls
+  354  man man
+  355  man -k
+  356  man man -k
+  357  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  358  ls
+  359  ls Applications
+  360  ls Applications/'Sublime Text 2.app'
+  361  clear
+  362  ls Applications/'Sublime Text 2.app'
+  363  ls applications
+  364  man s
+  365  man ls
+  366  ls -li
+  367  man ls
+  368  cd /
+  369  ls -1
+  370  ls -p
+  371  ls -@
+  372  cd
+  373  ls Applications
+  374  cd /
+  375  ls Applications
+  376  ls QuickTime\ Player.app
+  377  cd/Applicaitons
+  378  ls -a
+  379  ls -a1
+  380  pwd
+  381  cd
+  382  pwd
+  383  pwd
+  384  cd
+  385  ls
+  386  cd /
+  387  ls -RG
+  388  ls
+  389  cd /
+  390  ls
+  391  ls -l
+  392  cd
+  393  ls -l
+  394  cd Documents
+  395  cd Applications
+  396  pwd
+  397  cd
+  398  pwd
+  399  cd Documents
+  400  ls
+  401  cd
+  402  ls
+  403  ls -1
+  404  cd Desktop
+  405  ls -l
+  406  cd
+  407  ls -1 
+  408  ls -l
+  409  cd Library
+  410  ls
+  411  ls -l1
+  412  ls Messages
+  413  ls Messages/Archive
+  414  cd..
+  415  cd ..
+  416  pwd
+  417  ls
+  418  ls -1
+  419  cd Music
+  420  ls 
+  421  cd iTunes
+  422  ls
+  423  ls 'iTunes/iTunes Library.itl'
+  424  cd sentinel
+  425  ls sentinel
+  426  ls -a sentinel
+  427  ls -l sentinel
+  428  cd .
+  429  ls .
+  430  ls ..
+  431  ls -l 'iTunes Music Library.xml'
+  432  cd 'iTunes Music Library.xml'
+  433  ls ~
+  434  ls
+  435  ls 'Album Artwork'
+  436  ls 'Album Artwork/Cloud'
+  437  cd Cloud
+  438  cd 'Album Artwork'
+  439  ls
+  440  cd Cloud
+  441  ls
+  442  ls -a
+  443  ls -l
+  444  ls /
+  445  ls -l /
+  446  ls -l /
+  447  ls / -l
+  448  ls dev
+  449  cd dev
+  450  cd
+  451  ls
+  452  ls 'Google Drive'
+  453  cd streetfighter
+  454  ls streetfighter
+  455  ls . ls
+  456  ls .
+  457  ls ..
+  458  ls matthew
+  459  cd ..
+  460  ls
+  461  .
+  462  asdfjkl;
+  463  history
+  464  whatis ruby
+  465  man 5
+  466  cdcd
+  467  5
+  468  ls
+  469  cd
+  470  ls
+  471  history | less
+  472  man less
+  473  pd
+  474  pwd
+  475  cd
+  476  history > moving_around.txt
+  477  ls
+  478  ls
+  479  cd testing2015
+  480  ls
+  481  cd
+  482  history >> moving_around.txt
+  483  subl moving_around.txt
+  484  subl
+  485  mkdir uge_workshop
+  486  ls
+  487  mv moving_around.txt ./uge_workshop
+  488  ls
+  489  cd uge_workshop
+  490  ls
+  491  mv ./uge_workshop/moving_around.txt ./uge_workshop/unix_notes.txt
+  492  cd
+  493  pwd
+  494  cd uge_workshop
+  495  pwd
+  496  mv ./moving_around.txt ./unix_notes.txt
+  497  ls
+  498  /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  499  subl .
+  500  subl.
+  501  subl .
+  502  /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  503  ln -s Last login: Sat Jan  3 11:26:56 on ttys000
+  504  MMMacbook:~ matthew$ subl .
+  505  -bash: subl: command not found
+  506  MMMacbook:~ matthew$ /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  507  ln -s Last login: Sat Jan  3 11:26:56 on ttys000
+  508  MMMacbook:~ matthew$ subl .
+  509  -bash: subl: command not found
+  510  MMMacbook:~ matthew$ /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  511  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  512  [1]
+  513  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /bin/subl
+  514  sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /bin/subl
+  515  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  516  'brew doctor'
+  517  `brew doctor`
+  518  brew doctor
+  519  brew help
+  520  git status
+  521  ls
+  522  uge_workshop
+  523  cd uge_workshop
+  524  git status
+  525  git add unix_notes.txt
+  526  git status
+  527  ls
+  528  ls -a
+  529  git commit -m 'adding unix notes, first draft'
+  530  git status
+  531  git log
+  532  git log | less
+  533  git log -a
+  534  ls -al
+  535  subl unix_notes.txt
+  536  subl unix_notes.txt
+  537  subl unix_notes.txt
+  538  git status
+  539  git add
+  540  git commit -m 'added some more notes'
+  541  git add unix_notes.txt
+  542  git status
+  543  git diff
+  544  git diff --staged
+  545  git log
+  546  git l
+  547  git -l
+  548  git diff --staged
+  549  git commit -m 'add notes about hidden files and directories'
+  550  git status
+  551  cd 
+  552  ls
+  553  cd uge_workshop
+  554  ls
+  555  ls -a
+  556  cd testing2015
+  557  ls
+  558  cd
+  559  cd testing2015
+  560  ls
+  561  mkdir folderDrei
+  562  ls
+  563  mkdir folderTwo
+  564  ls
+  565  ls -t
+  566  cd
+  567  uge_workshop
+  568  cd uge_workshop
+  569  git log
+  570  git log
+  571  man c
+  572  man git help log
+  573  git ll
+  574  nope
+  575  git branch git-notes
+  576  git branch
+  577  git checkout git-notes
+  578  cd ..
+  579  cd
+  580  cd uge_workshop
+  581  ls
+  582  .
+  583  ..
+  584  cd .
+  585  cd ..
+  586  cd
+  587  cd ~
+  588  cd uge_workshop
+  589  git branch
+  590  git status
+  591  subml git-notes
+  592  touch git-notes.txt
+  593  ls -l
+  594  cat git_notes.txt
+  595  subml git-notes.txt
+  596  sublm git-notes.txt
+  597  subml unix_notes.txt
+  598  sublm unix_notes.txt
+  599  cd
+  600  uge_workshop
+  601  cd uge_workshop
+  602  ls
+  603  subl git-notes.txt
+  604  history > git-notes.txt
+  605  history >> git-notes.txt
+  606  subl git-notes.txt
+  607  git status
+  608  git add git-notes.txt
+  609  git status
+  610  git commit -m 'add git notes'
+  611  git status
+  612  history >> git-notes.txt
