@@ -1,3 +1,13 @@
+hidden files and folders begin with a dot (.)
+
+here are some additional notes:
+
+asdfdsa
+
+
+
+
+
     1  pwd
     2  ls
     3  ls downloads
