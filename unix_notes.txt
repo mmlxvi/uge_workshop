@@ -1,0 +1,974 @@
+    1  pwd
+    2  ls
+    3  ls downloads
+    4  ls google drive
+    5  ls pictures
+    6  ls public
+    7  ls documents
+    8  ../../
+    9  cd
+   10  cd /
+   11  ls
+   12  ../
+   13  ../../
+   14  ~/Documents
+   15  cd
+   16  cd/hTab/m
+   17  cd/h/m/
+   18  cd /home/Matthews-Macbook-Pro
+   19  cd /home/m
+   20  /etc
+   21  /var/log
+   22  /bin
+   23  /usr/bin
+   24  /bin/directory
+   25  /bin/desktop
+   26  cd desktop
+   27  ls
+   28  cd google drive
+   29  cd documents
+   30  ls
+   31  pwd
+   32  cd
+   33  ls
+   34  cd downloads
+   35  ls
+   36  /bin
+   37  cd /bin
+   38  ls
+   39  ~/desktop
+   40  cd ~/documents
+   41  cd
+   42  cd /bin
+   43  ../../
+   44  cd ../../
+   45  ls
+   46  hmm
+   47  ls -a Documents
+   48  cd
+   49  ls -a Documents
+   50  ls Documents
+   51  ls -a Desktop
+   52  ls -a Sneakers
+   53  cd
+   54  ls -a home
+   55  ls -a Library
+   56  man ls
+   57  man ls
+   58  man -k ls
+   59  man ls
+   60  man -a ls
+   61  -a ls
+   62  ls -a
+   63  man ls
+   64  ls -t
+   65  ls -t -a
+   66  man ls
+   67  ls -t -a -1
+   68  man ls
+   69  ls -a -t -1 -G
+   70  ls -a -G
+   71  q
+   72  pwd
+   73  ls
+   74  downloads
+   75  cd downloads
+   76  pwd
+   77  cd
+   78  ~
+   79  man mkdir
+   80  cd ..
+   81  cd .
+   82  cd music
+   83  cd Music
+   84  cd
+   85  ls Music -a
+   86  ls -a Music
+   87  ls -t -a Music
+   88  man rm
+   89  mkdir -v testing2014
+   90  ls -a testing2014
+   91  touch testing2014/fileOne
+   92  ls testing2014
+   93  ls -a testing2014
+   94  touch testing2014/fileTwo
+   95  touch testing2014/fileThree
+   96  ls -a testing2014
+   97  ls testing2014
+   98  mv testing2014/fileOne testing2014/fileUno
+   99  ls testing2014
+  100  mv testing2014/fileTwo testing2014/fileDos
+  101  ls testing2014
+  102  touch testing2014/fileUno/abc
+  103  touch fileUno/abc
+  104  mkdir testing2014/directoryOne
+  105  ls testing2014
+  106  touch directoryOne/abcFile
+  107  ls directoryOne
+  108  ls testing2014
+  109  rm testing2014
+  110  rmdir testing2014
+  111  man rm
+  112  rm -r testing2014
+  113  ls 
+  114  mkdir testing2
+  115  ls 
+  116  mkdir -pv insideTesting1
+  117  ls testing2
+  118  ls
+  119  mv insideTesting1 testing2/moved1
+  120  ls testing2
+  121  ls
+  122  mkdir testing2/folderOne
+  123  ls testing2
+  124  touch folderOne/file1
+  125  touch testing2/folderOne/fileOne
+  126  ls testing2
+  127  ls folderOne
+  128  ls testing2/folderOne
+  129  ls testing2/folderOne/fileOne
+  130  mkdir testing2/folderOne/fileWithinFile1
+  131  touch testing2/folderOne/fileWithinFile1/defFile
+  132  touch testing2/folderOne/fileWithinFile1/ghiFile
+  133  touch testing2/folderOne/fileWithinFile1/jklFile
+  134  ls testing2/folderOne/fileWithinFile1
+  135  cd
+  136  cp testing2/folderOne/fileWithinFile1/ghiFile ..
+  137  cp testing2/folderOne/fileWithinFile1/ghiFile testing2
+  138  ls testing2
+  139  cp testing2/folderOne/fileWithinFile1/ghiFile pwd
+  140  ls 
+  141  ls pwd
+  142  pwd
+  143  cp testing2/folderOne/fileWithinFile1/jklFile Users/matthew
+  144  cp testing2/folderOne/fileWithinFile1/jklFile ~
+  145  ls
+  146  mv testing2/folderOne/fileWithinFile1/ghiFile testing2
+  147  ls
+  148  mv testing2/folderOne/fileWithinFile1/jklFile testing2
+  149  ls testing
+  150  ls testing2
+  151  ls
+  152  rm jklFile
+  153  ls 
+  154  rm pwd
+  155  ls
+  156  ls testing2
+  157  mv testing2/ghiFile testing2/kitkat
+  158  ls testing2
+  159  mv testing2/jklFile mrGoodbar
+  160  ls testing2
+  161  ls
+  162  mv mrGoodbar testing2/mrGoodbar
+  163  ls testing2
+  164  ls
+  165  mv testing2/mrGoodbar testing2/moved1/noLongerMrGoodbar
+  166  ls moved1
+  167  ls testing2
+  168  ls
+  169  mv testing2/kitkat testing2/folderOne/newKitKat
+  170  ls folderOne
+  171  ls testing2
+  172  ls testing2/folderOne
+  173  ls
+  174  rm testing2
+  175  rm -r -i testing2
+  176  ls testing2
+  177  ls testing2/folderOne
+  178  ls testing2/moved1
+  179  ls testing2/moved1/noLongerMrGoodbar
+  180  rm testing2/moved1
+  181  rm -r testing2/moved1
+  182  ls testing2
+  183  b*
+  184  ls b*
+  185  ls f*
+  186  ls
+  187  ls d*
+  188  pwd
+  189  ls b*
+  190  ls P*
+  191  ls M*
+  192  ls User/matthew*.txt
+  193  ls Users/matthew
+  194  ls Documents
+  195  ls Movies
+  196  ls Public
+  197  ls testing2
+  198  ls Downloads
+  199  ls Downloads/*.pdf
+  200  ls Downloads*.pdf
+  201  ls [^a-k]
+  202  ls
+  203  ls [^a-k]*
+  204  /*
+  205  ~/*
+  206  Documents/*
+  207  testing2/*
+  208  folderOne/*
+  209  ls testing2
+  210  testing2/folderOne/*
+  211  testing2/folderOne/newKitKat/*
+  212  ls etc
+  213  ls /etc
+  214  ls /etc/*.netboot
+  215  ls /etc/*.c*
+  216  ls /etc/*.??g
+  217  ls /etc/*.keytab
+  218  ls /etc/b*
+  219  /etc/c*
+  220  ls /etc/c*
+  221  ls /etc/*.???
+  222  ls /etc/*.?????
+  223  ls /etc/*[[:upper:]]
+  224  ls /etc/????*
+  225  ls /etc/[[:upper:]]*
+  226  ls [[:upper:]]*
+  227  ls [:upper:]*
+  228  ls /etc/[[:upper:]]*
+  229  ls /etc/*[[:upper:]]*
+  230  ls /etc/*[0-9]*
+  231  ls /etc/[a-k]*
+  232  ls etc/a*
+  233  ls /etc/a*
+  234  ls /etc/
+  235  ls /etc/[[:upper:]]
+  236  ls /etc/*[[:upper:]]
+  237  ls /etc/*[[:upper:]]*
+  238  ls /etc/[[:upper:]]*
+  239  ls /etc/*[[:upper:]]*
+  240  ls /etc/*[:upper:]
+  241  ls /etc/[:upper:]*
+  242  ls -l Documents
+  243  ls -ld
+  244  ls -ld Documents
+  245  ls -ld Movies
+  246  ls linuxtutorialwork
+  247  ls testing2
+  248  touch testing2/mondayFile
+  249  ls testing2
+  250  ls -ld testing2/mondayFile
+  251  chmod testing2/mondayFile 100
+  252  chmod mondayFile 101
+  253  ls -ld testing2
+  254  chmod testing 202
+  255  chmod testing2 404
+  256  ls -l testing2
+  257  chmod folderOne 333
+  258  ls -l testing2/folderOne
+  259  chmod 750 newKitKat
+  260  ls -ld testing2/folderOne/newKitKat
+  261  chmod 700 testing2/folderOne/newKitKat
+  262  ls -ld testing2/folderOne/newKitKat
+  263  chmod 100 testing2/folderOne/newKitKat
+  264  ls -ld testing2/folderOne/newKitKat
+  265  mv testing2 testing2015
+  266  ls testing2015
+  267  touch testing2015/folderZwei
+  268  ls testing2
+  269  ls testing2016
+  270  ls testing2015
+  271  mkdir testing2015/directoryB
+  272  touch testing2015/direcotryB/fileMeAway
+  273  ls testing2015/directoryB
+  274  touch testing2015/directoryB/fileMeAway
+  275  ls testing2015/directoryB
+  276  mkdir testing2015/directoryB/anotherDirectory
+  277  ls testing2015
+  278  ls -ld testing2015/directoryB
+  279  chmod 700 testing2015/directoryB
+  280  ls -ld testing2015/directoryB
+  281  ls testing2015/directoryB
+  282  ls -ld testing2015/directoryB/fileMeAway
+  283  chmod 755 testing2015/directoryB/fileMeAway
+  284  ls -ld testing2015/directoryB/fileMeAway
+  285  chmod 777 testing2015/directoryB/fileMeAway
+  286  ls -ld testing2015/directoryB/fileMeAway
+  287  chmod 000 testing2015/directoryB/fileMeAway
+  288  ls -ld testing2015/directoryB/fileMeAway
+  289  ls testing2015/directoryB
+  290  ls -ld /etc
+  291  ls -ld /bin
+  292  ls -ld Movies
+  293  ls -ld Documents
+  294  ls -ld 'Google Drive'
+  295  ls -ld MMImages
+  296  ls -ld MMimages
+  297  ls -ld Documents/MMimages
+  298  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  299  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  300  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  301  ls
+  302  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  303  cd
+  304  ls Applications
+  305  ls -l
+  306  ls -l Applications
+  307  ls Applications
+  308  ls Downloads
+  309  ls Desktop
+  310  ls 'Google Drive'
+  311  ls
+  312  ls Movies
+  313  ls Public
+  314  ls testing2015
+  315  ls Applications
+  316  ls
+  317  ls
+  318  ls
+  319  cd Applications
+  320  ls
+  321  ls -a
+  322  ln -s
+  323  ls
+  324  ls -a
+  325  ls -s
+  326  cd
+  327  $
+  328  cd /
+  329  ls -G
+  330  ls -R
+  331  ls -S
+  332  ls -R
+  333  ls -R
+  334  cd /
+  335  ls -R
+  336  cd /
+  337  ls -S
+  338  ls -m
+  339  ls -mR
+  340  pwd
+  341  pwd
+  342  cd /
+  343  pwd
+  344  cd
+  345  cd /
+  346  ls
+  347  ls Applications
+  348  ls
+  349  ls -t
+  350  ls -l
+  351  ls -lt
+  352  ls r
+  353  ls -lr
+  354  ls -t
+  355  ls -tr
+  356  ls -lt
+  357  ls -ltr
+  358  man
+  359  man flags
+  360  man flag
+  361  man ls
+  362  man man
+  363  man -k
+  364  man man -k
+  365  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  366  ls
+  367  ls Applications
+  368  ls Applications/'Sublime Text 2.app'
+  369  clear
+  370  ls Applications/'Sublime Text 2.app'
+  371  ls applications
+  372  man s
+  373  man ls
+  374  ls -li
+  375  man ls
+  376  cd /
+  377  ls -1
+  378  ls -p
+  379  ls -@
+  380  cd
+  381  ls Applications
+  382  cd /
+  383  ls Applications
+  384  ls QuickTime\ Player.app
+  385  cd/Applicaitons
+  386  ls -a
+  387  ls -a1
+  388  pwd
+  389  cd
+  390  pwd
+  391  pwd
+  392  cd
+  393  ls
+  394  cd /
+  395  ls -RG
+  396  ls
+  397  cd /
+  398  ls
+  399  ls -l
+  400  cd
+  401  ls -l
+  402  cd Documents
+  403  cd Applications
+  404  pwd
+  405  cd
+  406  pwd
+  407  cd Documents
+  408  ls
+  409  cd
+  410  ls
+  411  ls -1
+  412  cd Desktop
+  413  ls -l
+  414  cd
+  415  ls -1 
+  416  ls -l
+  417  cd Library
+  418  ls
+  419  ls -l1
+  420  ls Messages
+  421  ls Messages/Archive
+  422  cd..
+  423  cd ..
+  424  pwd
+  425  ls
+  426  ls -1
+  427  cd Music
+  428  ls 
+  429  cd iTunes
+  430  ls
+  431  ls 'iTunes/iTunes Library.itl'
+  432  cd sentinel
+  433  ls sentinel
+  434  ls -a sentinel
+  435  ls -l sentinel
+  436  cd .
+  437  ls .
+  438  ls ..
+  439  ls -l 'iTunes Music Library.xml'
+  440  cd 'iTunes Music Library.xml'
+  441  ls ~
+  442  ls
+  443  ls 'Album Artwork'
+  444  ls 'Album Artwork/Cloud'
+  445  cd Cloud
+  446  cd 'Album Artwork'
+  447  ls
+  448  cd Cloud
+  449  ls
+  450  ls -a
+  451  ls -l
+  452  ls /
+  453  ls -l /
+  454  ls -l /
+  455  ls / -l
+  456  ls dev
+  457  cd dev
+  458  cd
+  459  ls
+  460  ls 'Google Drive'
+  461  cd streetfighter
+  462  ls streetfighter
+  463  ls . ls
+  464  ls .
+  465  ls ..
+  466  ls matthew
+  467  cd ..
+  468  ls
+  469  .
+  470  asdfjkl;
+  471  history
+  472  whatis ruby
+  473  man 5
+  474  cdcd
+  475  5
+  476  ls
+  477  cd
+  478  ls
+  479  history | less
+  480  man less
+  481  pd
+  482  pwd
+  483  cd
+  484  history > moving_around.txt
+    1  pwd
+    2  ls
+    3  ls downloads
+    4  ls google drive
+    5  ls pictures
+    6  ls public
+    7  ls documents
+    8  ../../
+    9  cd
+   10  cd /
+   11  ls
+   12  ../
+   13  ../../
+   14  ~/Documents
+   15  cd
+   16  cd/hTab/m
+   17  cd/h/m/
+   18  cd /home/Matthews-Macbook-Pro
+   19  cd /home/m
+   20  /etc
+   21  /var/log
+   22  /bin
+   23  /usr/bin
+   24  /bin/directory
+   25  /bin/desktop
+   26  cd desktop
+   27  ls
+   28  cd google drive
+   29  cd documents
+   30  ls
+   31  pwd
+   32  cd
+   33  ls
+   34  cd downloads
+   35  ls
+   36  /bin
+   37  cd /bin
+   38  ls
+   39  ~/desktop
+   40  cd ~/documents
+   41  cd
+   42  cd /bin
+   43  ../../
+   44  cd ../../
+   45  ls
+   46  hmm
+   47  ls -a Documents
+   48  cd
+   49  ls -a Documents
+   50  ls Documents
+   51  ls -a Desktop
+   52  ls -a Sneakers
+   53  cd
+   54  ls -a home
+   55  ls -a Library
+   56  man ls
+   57  man ls
+   58  man -k ls
+   59  man ls
+   60  man -a ls
+   61  -a ls
+   62  ls -a
+   63  man ls
+   64  ls -t
+   65  ls -t -a
+   66  man ls
+   67  ls -t -a -1
+   68  man ls
+   69  ls -a -t -1 -G
+   70  ls -a -G
+   71  q
+   72  pwd
+   73  ls
+   74  downloads
+   75  cd downloads
+   76  pwd
+   77  cd
+   78  ~
+   79  man mkdir
+   80  cd ..
+   81  cd .
+   82  cd music
+   83  cd Music
+   84  cd
+   85  ls Music -a
+   86  ls -a Music
+   87  ls -t -a Music
+   88  man rm
+   89  mkdir -v testing2014
+   90  ls -a testing2014
+   91  touch testing2014/fileOne
+   92  ls testing2014
+   93  ls -a testing2014
+   94  touch testing2014/fileTwo
+   95  touch testing2014/fileThree
+   96  ls -a testing2014
+   97  ls testing2014
+   98  mv testing2014/fileOne testing2014/fileUno
+   99  ls testing2014
+  100  mv testing2014/fileTwo testing2014/fileDos
+  101  ls testing2014
+  102  touch testing2014/fileUno/abc
+  103  touch fileUno/abc
+  104  mkdir testing2014/directoryOne
+  105  ls testing2014
+  106  touch directoryOne/abcFile
+  107  ls directoryOne
+  108  ls testing2014
+  109  rm testing2014
+  110  rmdir testing2014
+  111  man rm
+  112  rm -r testing2014
+  113  ls 
+  114  mkdir testing2
+  115  ls 
+  116  mkdir -pv insideTesting1
+  117  ls testing2
+  118  ls
+  119  mv insideTesting1 testing2/moved1
+  120  ls testing2
+  121  ls
+  122  mkdir testing2/folderOne
+  123  ls testing2
+  124  touch folderOne/file1
+  125  touch testing2/folderOne/fileOne
+  126  ls testing2
+  127  ls folderOne
+  128  ls testing2/folderOne
+  129  ls testing2/folderOne/fileOne
+  130  mkdir testing2/folderOne/fileWithinFile1
+  131  touch testing2/folderOne/fileWithinFile1/defFile
+  132  touch testing2/folderOne/fileWithinFile1/ghiFile
+  133  touch testing2/folderOne/fileWithinFile1/jklFile
+  134  ls testing2/folderOne/fileWithinFile1
+  135  cd
+  136  cp testing2/folderOne/fileWithinFile1/ghiFile ..
+  137  cp testing2/folderOne/fileWithinFile1/ghiFile testing2
+  138  ls testing2
+  139  cp testing2/folderOne/fileWithinFile1/ghiFile pwd
+  140  ls 
+  141  ls pwd
+  142  pwd
+  143  cp testing2/folderOne/fileWithinFile1/jklFile Users/matthew
+  144  cp testing2/folderOne/fileWithinFile1/jklFile ~
+  145  ls
+  146  mv testing2/folderOne/fileWithinFile1/ghiFile testing2
+  147  ls
+  148  mv testing2/folderOne/fileWithinFile1/jklFile testing2
+  149  ls testing
+  150  ls testing2
+  151  ls
+  152  rm jklFile
+  153  ls 
+  154  rm pwd
+  155  ls
+  156  ls testing2
+  157  mv testing2/ghiFile testing2/kitkat
+  158  ls testing2
+  159  mv testing2/jklFile mrGoodbar
+  160  ls testing2
+  161  ls
+  162  mv mrGoodbar testing2/mrGoodbar
+  163  ls testing2
+  164  ls
+  165  mv testing2/mrGoodbar testing2/moved1/noLongerMrGoodbar
+  166  ls moved1
+  167  ls testing2
+  168  ls
+  169  mv testing2/kitkat testing2/folderOne/newKitKat
+  170  ls folderOne
+  171  ls testing2
+  172  ls testing2/folderOne
+  173  ls
+  174  rm testing2
+  175  rm -r -i testing2
+  176  ls testing2
+  177  ls testing2/folderOne
+  178  ls testing2/moved1
+  179  ls testing2/moved1/noLongerMrGoodbar
+  180  rm testing2/moved1
+  181  rm -r testing2/moved1
+  182  ls testing2
+  183  b*
+  184  ls b*
+  185  ls f*
+  186  ls
+  187  ls d*
+  188  pwd
+  189  ls b*
+  190  ls P*
+  191  ls M*
+  192  ls User/matthew*.txt
+  193  ls Users/matthew
+  194  ls Documents
+  195  ls Movies
+  196  ls Public
+  197  ls testing2
+  198  ls Downloads
+  199  ls Downloads/*.pdf
+  200  ls Downloads*.pdf
+  201  ls [^a-k]
+  202  ls
+  203  ls [^a-k]*
+  204  /*
+  205  ~/*
+  206  Documents/*
+  207  testing2/*
+  208  folderOne/*
+  209  ls testing2
+  210  testing2/folderOne/*
+  211  testing2/folderOne/newKitKat/*
+  212  ls etc
+  213  ls /etc
+  214  ls /etc/*.netboot
+  215  ls /etc/*.c*
+  216  ls /etc/*.??g
+  217  ls /etc/*.keytab
+  218  ls /etc/b*
+  219  /etc/c*
+  220  ls /etc/c*
+  221  ls /etc/*.???
+  222  ls /etc/*.?????
+  223  ls /etc/*[[:upper:]]
+  224  ls /etc/????*
+  225  ls /etc/[[:upper:]]*
+  226  ls [[:upper:]]*
+  227  ls [:upper:]*
+  228  ls /etc/[[:upper:]]*
+  229  ls /etc/*[[:upper:]]*
+  230  ls /etc/*[0-9]*
+  231  ls /etc/[a-k]*
+  232  ls etc/a*
+  233  ls /etc/a*
+  234  ls /etc/
+  235  ls /etc/[[:upper:]]
+  236  ls /etc/*[[:upper:]]
+  237  ls /etc/*[[:upper:]]*
+  238  ls /etc/[[:upper:]]*
+  239  ls /etc/*[[:upper:]]*
+  240  ls /etc/*[:upper:]
+  241  ls /etc/[:upper:]*
+  242  ls -l Documents
+  243  ls -ld
+  244  ls -ld Documents
+  245  ls -ld Movies
+  246  ls linuxtutorialwork
+  247  ls testing2
+  248  touch testing2/mondayFile
+  249  ls testing2
+  250  ls -ld testing2/mondayFile
+  251  chmod testing2/mondayFile 100
+  252  chmod mondayFile 101
+  253  ls -ld testing2
+  254  chmod testing 202
+  255  chmod testing2 404
+  256  ls -l testing2
+  257  chmod folderOne 333
+  258  ls -l testing2/folderOne
+  259  chmod 750 newKitKat
+  260  ls -ld testing2/folderOne/newKitKat
+  261  chmod 700 testing2/folderOne/newKitKat
+  262  ls -ld testing2/folderOne/newKitKat
+  263  chmod 100 testing2/folderOne/newKitKat
+  264  ls -ld testing2/folderOne/newKitKat
+  265  mv testing2 testing2015
+  266  ls testing2015
+  267  touch testing2015/folderZwei
+  268  ls testing2
+  269  ls testing2016
+  270  ls testing2015
+  271  mkdir testing2015/directoryB
+  272  touch testing2015/direcotryB/fileMeAway
+  273  ls testing2015/directoryB
+  274  touch testing2015/directoryB/fileMeAway
+  275  ls testing2015/directoryB
+  276  mkdir testing2015/directoryB/anotherDirectory
+  277  ls testing2015
+  278  ls -ld testing2015/directoryB
+  279  chmod 700 testing2015/directoryB
+  280  ls -ld testing2015/directoryB
+  281  ls testing2015/directoryB
+  282  ls -ld testing2015/directoryB/fileMeAway
+  283  chmod 755 testing2015/directoryB/fileMeAway
+  284  ls -ld testing2015/directoryB/fileMeAway
+  285  chmod 777 testing2015/directoryB/fileMeAway
+  286  ls -ld testing2015/directoryB/fileMeAway
+  287  chmod 000 testing2015/directoryB/fileMeAway
+  288  ls -ld testing2015/directoryB/fileMeAway
+  289  ls testing2015/directoryB
+  290  ls -ld /etc
+  291  ls -ld /bin
+  292  ls -ld Movies
+  293  ls -ld Documents
+  294  ls -ld 'Google Drive'
+  295  ls -ld MMImages
+  296  ls -ld MMimages
+  297  ls -ld Documents/MMimages
+  298  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  299  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  300  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  301  ls
+  302  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  303  cd
+  304  ls Applications
+  305  ls -l
+  306  ls -l Applications
+  307  ls Applications
+  308  ls Downloads
+  309  ls Desktop
+  310  ls 'Google Drive'
+  311  ls
+  312  ls Movies
+  313  ls Public
+  314  ls testing2015
+  315  ls Applications
+  316  ls
+  317  ls
+  318  ls
+  319  cd Applications
+  320  ls
+  321  ls -a
+  322  ln -s
+  323  ls
+  324  ls -a
+  325  ls -s
+  326  cd
+  327  $
+  328  cd /
+  329  ls -G
+  330  ls -R
+  331  ls -S
+  332  ls -R
+  333  ls -R
+  334  cd /
+  335  ls -R
+  336  cd /
+  337  ls -S
+  338  ls -m
+  339  ls -mR
+  340  pwd
+  341  pwd
+  342  cd /
+  343  pwd
+  344  cd
+  345  cd /
+  346  ls
+  347  ls Applications
+  348  ls
+  349  ls -t
+  350  ls -l
+  351  ls -lt
+  352  ls r
+  353  ls -lr
+  354  ls -t
+  355  ls -tr
+  356  ls -lt
+  357  ls -ltr
+  358  man
+  359  man flags
+  360  man flag
+  361  man ls
+  362  man man
+  363  man -k
+  364  man man -k
+  365  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  366  ls
+  367  ls Applications
+  368  ls Applications/'Sublime Text 2.app'
+  369  clear
+  370  ls Applications/'Sublime Text 2.app'
+  371  ls applications
+  372  man s
+  373  man ls
+  374  ls -li
+  375  man ls
+  376  cd /
+  377  ls -1
+  378  ls -p
+  379  ls -@
+  380  cd
+  381  ls Applications
+  382  cd /
+  383  ls Applications
+  384  ls QuickTime\ Player.app
+  385  cd/Applicaitons
+  386  ls -a
+  387  ls -a1
+  388  pwd
+  389  cd
+  390  pwd
+  391  pwd
+  392  cd
+  393  ls
+  394  cd /
+  395  ls -RG
+  396  ls
+  397  cd /
+  398  ls
+  399  ls -l
+  400  cd
+  401  ls -l
+  402  cd Documents
+  403  cd Applications
+  404  pwd
+  405  cd
+  406  pwd
+  407  cd Documents
+  408  ls
+  409  cd
+  410  ls
+  411  ls -1
+  412  cd Desktop
+  413  ls -l
+  414  cd
+  415  ls -1 
+  416  ls -l
+  417  cd Library
+  418  ls
+  419  ls -l1
+  420  ls Messages
+  421  ls Messages/Archive
+  422  cd..
+  423  cd ..
+  424  pwd
+  425  ls
+  426  ls -1
+  427  cd Music
+  428  ls 
+  429  cd iTunes
+  430  ls
+  431  ls 'iTunes/iTunes Library.itl'
+  432  cd sentinel
+  433  ls sentinel
+  434  ls -a sentinel
+  435  ls -l sentinel
+  436  cd .
+  437  ls .
+  438  ls ..
+  439  ls -l 'iTunes Music Library.xml'
+  440  cd 'iTunes Music Library.xml'
+  441  ls ~
+  442  ls
+  443  ls 'Album Artwork'
+  444  ls 'Album Artwork/Cloud'
+  445  cd Cloud
+  446  cd 'Album Artwork'
+  447  ls
+  448  cd Cloud
+  449  ls
+  450  ls -a
+  451  ls -l
+  452  ls /
+  453  ls -l /
+  454  ls -l /
+  455  ls / -l
+  456  ls dev
+  457  cd dev
+  458  cd
+  459  ls
+  460  ls 'Google Drive'
+  461  cd streetfighter
+  462  ls streetfighter
+  463  ls . ls
+  464  ls .
+  465  ls ..
+  466  ls matthew
+  467  cd ..
+  468  ls
+  469  .
+  470  asdfjkl;
+  471  history
+  472  whatis ruby
+  473  man 5
+  474  cdcd
+  475  5
+  476  ls
+  477  cd
+  478  ls
+  479  history | less
+  480  man less
+  481  pd
+  482  pwd
+  483  cd
+  484  history > moving_around.txt
+  485  ls
+  486  ls
+  487  cd testing2015
+  488  ls
+  489  cd
+  490  history >> moving_around.txt
